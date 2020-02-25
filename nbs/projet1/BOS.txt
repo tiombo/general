@@ -1,0 +1,32 @@
+origin - Aéroport de départ
+time_hour - Date et heure prévues du vol
+tailnum - Numéro d'immatriculation
+year - Année de départ
+month - Mois de départ
+day - Jour de départ
+dep_time - Heure de départ effective
+sched_dep_time - Heure de départ prévue
+dep_delay - Retard au départ (en minutes). Les temps négatifs représentent une avance
+arr_delay - Retard à l'arrivée (en minutes). Les temps négatifs représentent une avance
+carrier - Transporteur (abbréviation)
+flight - Numéro du vol
+dest - Aéroport de destination
+air_time - Temps passé dans les airs (en minutes)
+distance - Distance entre les aéroports (en miles)
+hour - Heure de départ prévue
+minute - Minute de départ prévue
+seats - Nombre de sièges dans l'avion
+temp - Température en F
+dewp - Point de rosée en F
+humid - Humidité relative
+wind_dir -  Direction du vent (en degrés)
+wind_speed - Vitesse du vent (en mph)
+precip - Preciptations (en pouces)
+pressure - Pression au niveaqu de la mer (en millibars)
+visib - Visibilité (en miles)
+week_day - jour de la semaine du départ du vol
+wknd - indicatrice de la fin de semaine (TRUE pour un vol de fin de semaine, FALSE sinon)
+evening_rush_hour - indicatrice de l'heure de pointe de fin de journée (TRUE si le vol a décolé entre 17 et 19 heures du soir, FALSE sinon)
+wind_sin - variable pour modéliser correctement les vents (wind_speed*sin(BOS$wind_dir*pi/180))
+wind_cos - variable pour modéliser correctement les vents (wind_speed*cos(BOS$wind_dir*pi/180))
+precip_indic - indicatrice de la présence de précipitation (TRUE s'il y a des précipitations, FALSE sinon)

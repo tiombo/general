@@ -129,12 +129,6 @@ dmypy.json
 .pyre/
 
 # Custom
-#nbs/03-regression-lineaire-multiple/*-solution*
-#nbs/05-equation-normale/*-solution*
-#nbs/06-metriques-et-evaluation-des-modeles-de-regression/*-solution*
 
-nbs/07-variables-explicatives-categorielles
-nbs/08-regression-logistique
-nbs/10-models-non-parametriques
-data/Heart.csv
-
+nbs/07-variables-explicatives-categorielles/*-solution*
+nbs/08-regression-logistique/*-solution*
