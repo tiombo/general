@@ -130,5 +130,5 @@ dmypy.json
 
 # Custom
 
-#nbs/07-variables-explicatives-categorielles/*-solution*
+nbs/10-methodes-non-parametriques/*-solution*
 #nbs/08-regression-logistique/*-solution*
