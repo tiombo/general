@@ -130,5 +130,5 @@ dmypy.json
 
 # Custom
 
-nbs/10-methodes-non-parametriques/*-solution*
-#nbs/08-regression-logistique/*-solution*
+nbs/11-methodes-non-parametriques/*-solution*
+projet1/temp.ipynb

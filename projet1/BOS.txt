@@ -22,7 +22,7 @@ humid - Humidité relative
 wind_dir -  Direction du vent (en degrés)
 wind_speed - Vitesse du vent (en mph)
 precip - Preciptations (en pouces)
-pressure - Pression au niveaqu de la mer (en millibars)
+pressure - Pression au niveau de la mer (en millibars)
 visib - Visibilité (en miles)
 week_day - jour de la semaine du départ du vol
 wknd - indicatrice de la fin de semaine (TRUE pour un vol de fin de semaine, FALSE sinon)
