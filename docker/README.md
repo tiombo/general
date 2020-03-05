@@ -1,6 +1,6 @@
-# 420-A57-SF - Algorithmes d'apprentissage supervisé
+# Image Docker (Jupyter Notebook)
 
-### Image docker du cours (Jupyter Notebook)
+### Image docker du cours (Docker Hub)
 `docker pull mswawola/csfoy-420-a52-sf:latest`
 
 ### Exécution sur Linux
