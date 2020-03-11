@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import PolynomialFeatures
 
-    
-def plot_classifier(X_train, y_train, classifier, order=1, grid=100, xlabel=r"$x_1$", ylabel=r"$x_2$"):
+def plot_classifier(X_train, y_train, classifier, scaler, order=1, grid=100, xlabel=r"$x_1$", ylabel=r"$x_2$"):
     """
     Affichage des résultats de classification
     
@@ -16,9 +15,6 @@ def plot_classifier(X_train, y_train, classifier, order=1, grid=100, xlabel=r"$x
     if classifier.__class__.__name__ == "LogisticRegression":
         poly = PolynomialFeatures(order)
         X = poly.fit_transform(X_train)
-        scaler = StandardScaler()
-        scaler.fit(X)
-        X = scaler.transform(X)
     else:
         X = X_train
     
@@ -41,6 +37,7 @@ def plot_classifier(X_train, y_train, classifier, order=1, grid=100, xlabel=r"$x
         vec = np.c_[XX.ravel(), YY.ravel()]
     elif classifier.__class__.__name__ == "LogisticRegression":
         vec = poly.fit_transform(np.c_[XX.ravel(), YY.ravel()])
+        vec = scaler.transform(vec)
     else:
         raise Exception()
         
@@ -59,4 +56,3 @@ def plot_classifier(X_train, y_train, classifier, order=1, grid=100, xlabel=r"$x
     
     CS2 = axes[1].contourf(XX, YY, z, 100, cmap="inferno")
     CS = axes[1].contour(XX,YY,z,[0.5], colors=["w"])
-    

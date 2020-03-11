@@ -129,6 +129,5 @@ dmypy.json
 .pyre/
 
 # Custom
-
-nbs/11-methodes-non-parametriques/*-solution*
-projet1/temp.ipynb
+nbs/12-validation-croisee/
+#nbs/12-validation-croisee/*-solution*
