@@ -130,4 +130,4 @@ dmypy.json
 
 # Custom
 #nbs/12-validation-croisee/
-nbs/12-validation-croisee/*-solution*
+#nbs/12-validation-croisee/*-solution*
