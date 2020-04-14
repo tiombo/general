@@ -129,7 +129,8 @@ dmypy.json
 .pyre/
 
 # Custom
-#nbs/12-validation-croisee/
-#nbs/14-*
+nbs/17*
+nbs/15*/*solu*
+nbs/16*/*solu*
+data/ti*
 slides/
-#projet1/
