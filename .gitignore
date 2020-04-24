@@ -131,8 +131,8 @@ dmypy.json
 # Custom
 #nbs/17*
 #nbs/15*/*solu*
-nbs/19*/*solu*
 #data/ti*
 slides/
 projet2/p*
 projet2/h*
+projet3/
